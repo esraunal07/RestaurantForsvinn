@@ -1,0 +1,166 @@
+{
+  "menu": {
+    "menu": {
+      "main": [
+        {
+          "id": 1,
+          "category": "main",
+          "name": "Lasagna",
+          "description": "Layers of pasta, ricotta cheese, Bolognese sauce, and Parmesan cheese baked to perfection.",
+          "price": 200,
+          "sold_out": true
+        },
+        {
+          "id": 2,
+          "category": "main",
+          "name": "Risotto alla Milanese",
+          "description": "Creamy risotto flavored with saffron and Parmesan cheese.",
+          "price": 180,
+          "sold_out": false
+        },
+        {
+          "id": 3,
+          "category": "main",
+          "name": "Osso Buco",
+          "description": "Braised veal shanks cooked with vegetables, white wine, and broth, served with gremolata.",
+          "price": 220,
+          "sold_out": false
+        },
+        {
+          "id": 4,
+          "category": "main",
+          "name": "Spaghetti Carbonara",
+          "description": "Classic Roman pasta dish with pancetta, eggs, Parmesan, and black pepper.",
+          "price": 160,
+          "sold_out": false
+        },
+        {
+          "id": 5,
+          "category": "main",
+          "name": "Margherita Pizza",
+          "description": "Traditional Neapolitan pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
+          "price": 140,
+          "sold_out": false
+        },
+        {
+          "id": 6,
+          "category": "main",
+          "name": "Fettuccine Alfredo",
+          "description": "Pasta tossed in a creamy Parmesan cheese and butter sauce.",
+          "price": 170,
+          "sold_out": false
+        }
+      ],
+      "starter": [
+        {
+          "id": 7,
+          "category": "starter",
+          "name": "Bruschetta",
+          "description": "Grilled bread topped with fresh tomatoes, basil, and olive oil.",
+          "price": 90,
+          "sold_out": false
+        },
+        {
+          "id": 8,
+          "category": "starter",
+          "name": "Caprese Salad",
+          "description": "Fresh mozzarella, tomatoes, and basil drizzled with olive oil and balsamic glaze.",
+          "price": 110,
+          "sold_out": false
+        },
+        {
+          "id": 9,
+          "category": "starter",
+          "name": "Arancini",
+          "description": "Deep-fried rice balls stuffed with cheese and meat sauce.",
+          "price": 100,
+          "sold_out": false
+        },
+        {
+          "id": 10,
+          "category": "starter",
+          "name": "Prosciutto e Melone",
+          "description": "Thinly sliced cured ham served with sweet cantaloupe melon.",
+          "price": 120,
+          "sold_out": false
+        }
+      ],
+      "dessert": [
+        {
+          "id": 12,
+          "category": "dessert",
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream..",
+          "price": 150,
+          "sold_out": false
+        },
+        {
+          "id": 13,
+          "category": "dessert",
+          "name": "Panna Cotta",
+          "description": "Silky smooth vanilla-flavored cream dessert topped with berry sauce.",
+          "price": 100,
+          "sold_out": false
+        },
+        {
+          "id": 14,
+          "category": "dessert",
+          "name": "Cannoli",
+          "description": "Fried pastry shells filled with sweet ricotta cheese and chocolate chips.",
+          "price": 110,
+          "sold_out": false
+        },
+        {
+          "id": 15,
+          "category": "dessert",
+          "name": "Gelato",
+          "description": "Italian ice cream with a dense and creamy texture, available in various flavors.",
+          "price": 90,
+          "sold_out": false
+        },
+        {
+          "id": 16,
+          "category": "dessert",
+          "name": "Affogato",
+          "description": "Vanilla gelato drowned in a shot of hot espresso.",
+          "price": 80,
+          "sold_out": false
+        }
+      ],
+      "drink": [
+        {
+          "id": 17,
+          "category": "drink",
+          "name": "Espresso",
+          "description": "Rich and bold Italian coffee served in a small cup.",
+          "price": 50,
+          "sold_out": false
+        },
+        {
+          "id": 18,
+          "category": "drink",
+          "name": "Cappuccino",
+          "description": "Espresso topped with steamed milk and frothy foam.",
+          "price": 60,
+          "sold_out": false
+        },
+        {
+          "id": 19,
+          "category": "drink",
+          "name": "Aperol Spritz",
+          "description": "Refreshing cocktail made with Aperol, Prosecco, and a splash of soda.",
+          "price": 70,
+          "sold_out": false
+        },
+        {
+          "id": 20,
+          "category": "drink",
+          "name": "Mineral Water",
+          "description": "Refreshing mineral water.",
+          "price": 30,
+          "sold_out": false
+        }
+      ]
+    }
+  }
+}

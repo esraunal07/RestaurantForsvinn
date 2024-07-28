@@ -1,32 +1,32 @@
-import addItem from './pages/addItem.js';
-import editItem from './pages/editItem.js';
-import deleteItem from './pages/deleteItem.js';
-import adminLogin from './pages/adminLogin.js';
-import admin from './pages/admin.js'; 
+import adminLoginPage from './pages/adminLoginPage.js';
+import adminPage from './pages/adminPage.js';
+import addItemPage from './pages/addItemPage.js';
+import editItemPage from './pages/editItemPage.js';
+import deleteItemPage from './pages/deleteItemPage.js';
 import { displayMenu } from './app.js';
 
 async function handlePageChange() {
   switch (location.hash) {
     case "#login":
-      $('main').html(await adminLogin());
+      $('main').html(await adminLoginPage());
       break;
     case "#admin":
-      $('main').html(await admin());
+      $('main').html(await adminPage());
       break;
-    case '#addItem':
-      $('main').html(await addItem());
+    case '#addItemPage':
+      $('main').html(await addItemPage());
       break;
-    case '#editItem':
-      $('main').html(await editItem());
+    case '#editItemPage':
+      $('main').html(await editItemPage());
       break;
-    case '#deleteItem':
-      $('main').html(await deleteItem());
+    case '#deleteItemPage':
+      $('main').html(await deleteItemPage());
       break;
     case '#menu':
       $('main').html(await displayMenu());
       break;
     default:
-      $('main').html(await admin());
+      $('main').html(await adminPage());
       break;
   }
 }

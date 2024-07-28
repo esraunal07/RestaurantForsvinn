@@ -15,7 +15,7 @@ export default async function addItemPage() {
                 <label for="category">Category:</label>
                 <select id="category" name="category">
                     <option value="" disabled selected>Select Category</option>
-                    <option value="main_course">main_course</option>
+                    <option value="main">main</option>
                     <option value="starter">starter</option>
                     <option value="dessert">dessert</option>
                     <option value="drink">drink</option>

@@ -1,4 +1,4 @@
-export default async function admin() {
+export default async function adminPage() {
     return `
     <div id="admin">
       <div id="adminButtons">

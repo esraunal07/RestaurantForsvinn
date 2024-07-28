@@ -6,7 +6,6 @@ const PORT = 3000;
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser());
-
 server.use(router);
 
 server.listen(PORT, () => {

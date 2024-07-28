@@ -4,7 +4,7 @@ function createSelectOptions(items) {
   return items.map(item => `<option value="${item.id}">${item.name}</option>`).join('');
 }
 
-export default async function deleteItem() {
+export default async function deleteItemPage() {
   try {
     // Fetch the current menu data
     const menuData = await fetchData();

@@ -1,6 +1,6 @@
 export async function fetchData() {
     try {
-      const response = await fetch('./db.json'); 
+      const response = await fetch('http://localhost:3000/menu'); // JSON Server URL
       if (!response.ok) {
         throw new Error('Failed to fetch menu data');
       }
@@ -9,8 +9,8 @@ export async function fetchData() {
       console.error('Error fetching menu data:', error);
       throw error;
     }
-  }
-  
+}
+
   export async function sendData(menuData) {
     try {
       const response = await fetch('http://localhost:3000/menu', {
@@ -18,7 +18,7 @@ export async function fetchData() {
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(menuData.menu) 
+        body: JSON.stringify(menuData) 
       });
       if (!response.ok) {
         throw new Error('Failed to send updated data');

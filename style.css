@@ -1,0 +1,174 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+ 
+  color: #ffffff;
+  
+  text-align: center;
+}
+
+header {
+  background-color: #7b0101ea;
+
+  color: #fff;
+
+  padding: 10px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #e6d6d6;
+  
+  text-decoration: none;
+  margin-right: 20px;
+}
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.menu-category {
+  width: calc(50% - 20px);
+  background-color: #d8dbde;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.menu-category h2 {
+  text-align: center;
+  background-color: #a97e7e;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.menu-items {
+  padding: 10px;
+  margin: 5px 0; /* Üst ve alt boşluğu kısaltma */
+  border-radius: 2px;
+}
+
+.menu-item {
+  background-color: #f7f0f0;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-height: 100px; 
+  overflow: hidden; 
+}
+
+.menu-item h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.menu-item p {
+  color: #555;
+}
+
+.menu-item p.price {
+  font-weight: bold;
+}
+
+body {
+  background-image: url('image-restaurant-c700x420.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.admin-login-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(77, 71, 71, 0.8);
+  border: 1px solid #635b5b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+#adminLoginForm {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+label {
+  margin-bottom: 5px;
+  
+
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #af4c4c;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a04559;
+}
+
+footer {
+  margin-top: 220px;
+  background-color: #a84444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#adminButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+#adminButtons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #af4c4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#adminButtons button:hover {
+  background-color: #a04545;
+}
+
+.sold-out-label {
+  font-weight: bold;
+  color: red;
+}

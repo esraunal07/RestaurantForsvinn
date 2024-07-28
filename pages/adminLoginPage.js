@@ -1,5 +1,5 @@
 
-export default async function adminLogin() {
+export default async function adminLoginPage() {
 
     const adminLoginPageHTML = `
       <div class="admin-login-container">
